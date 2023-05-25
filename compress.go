@@ -1,6 +1,6 @@
 package cudacomp
 
-// #cgo LDFLAGS: -llz4decom
+// #cgo LDFLAGS: -L./ -llz4decom
 //#include "lz4_cpu.h"
 /*
 #include <stdio.h>
